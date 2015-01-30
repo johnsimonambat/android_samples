@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Post Tickets"
+        android:id="@+id/post_ticket_button"
+        android:layout_marginTop="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View Tckets"
+        android:id="@+id/view_ticket_button"
+        android:layout_below="@+id/post_ticket_button"
+        android:layout_alignLeft="@+id/post_ticket_button"
+        android:layout_alignStart="@+id/post_ticket_button"
+        android:layout_marginTop="39dp" />
+
+
+</RelativeLayout>

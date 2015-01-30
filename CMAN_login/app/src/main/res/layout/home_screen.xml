@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffd6d7ff">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Post Tickets"
+        android:id="@+id/post_ticket_button"
+        android:layout_marginTop="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View Tckets"
+        android:id="@+id/view_ticket_button"
+        android:layout_below="@+id/post_ticket_button"
+        android:layout_marginTop="52dp"
+        android:layout_alignRight="@+id/post_ticket_button"
+        android:layout_alignEnd="@+id/post_ticket_button" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="account manage button"
+        android:id="@+id/account_manage_button"
+        android:layout_below="@+id/view_ticket_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:id="@+id/button4"
+        android:layout_below="@+id/account_manage_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+
+
+</RelativeLayout>
